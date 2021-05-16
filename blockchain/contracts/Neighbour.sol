@@ -69,5 +69,9 @@ contract Neighbour{
     function getMedName(uint donor_id,uint medicine_id) public view returns(string memory){
         return(mul_tr[donor_id].mulMed[medicine_id].medicineName);
     }
+
+    function getMedQuan(uint donor_id,uint medicine_id) public view returns(string memory){
+        return(mul_tr[donor_id].mulMed[medicine_id].medicineQuantity);
+    }
     
 }
