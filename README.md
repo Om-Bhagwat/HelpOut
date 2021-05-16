@@ -37,7 +37,7 @@ This will start a new development server at localhost:3000
 1. Add `.env` file
 	- Add PORT ,MONGODB_URl
 2. Enter npm install in cmd to download all dependencies
-3. `nodemon index.js` to start the server
+3. `nodemon/node index.js` to start the server
 
 
 **Any Doubts regarding Project can be addressed to me**
